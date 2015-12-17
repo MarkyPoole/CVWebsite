@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkPooleCVWebsite", "MarkPooleCVWebsite\MarkPooleCVWebsite.csproj", "{B41AC0D5-EE3B-45E3-ABE2-B40F391AA0CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkPooleCVWebsite.Tests", "MarkPooleCVWebsite.Tests\MarkPooleCVWebsite.Tests.csproj", "{91D988F8-8EF8-4B60-ADF0-D8E1D554294E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B41AC0D5-EE3B-45E3-ABE2-B40F391AA0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41AC0D5-EE3B-45E3-ABE2-B40F391AA0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41AC0D5-EE3B-45E3-ABE2-B40F391AA0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41AC0D5-EE3B-45E3-ABE2-B40F391AA0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D988F8-8EF8-4B60-ADF0-D8E1D554294E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D988F8-8EF8-4B60-ADF0-D8E1D554294E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D988F8-8EF8-4B60-ADF0-D8E1D554294E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D988F8-8EF8-4B60-ADF0-D8E1D554294E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

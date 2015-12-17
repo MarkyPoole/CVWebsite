@@ -1,0 +1,96 @@
+﻿/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+}
+
+#wrapper.toggled {
+    padding-left: 27vmin;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    opacity: 0.4;
+    position: absolute;
+    left: 27vmin;
+    width: 27vmin;
+    height: 100%;
+    margin-left: -27vmin;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#sidebar-wrapper:hover {
+    opacity:1;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 27vmin;
+}
+
+
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -27vmin;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 27vmin;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 2vmin;
+    line-height: 4vmin;
+    font-size: 2vmin;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    padding:3vmin;
+    height: 6vmin;
+    font-size: 3vmin;
+    line-height: 2vmin;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}

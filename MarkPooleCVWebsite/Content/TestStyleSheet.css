@@ -1,0 +1,265 @@
+﻿body {
+    color: #999;
+    font-size: 2vmin;
+    font-family: 'Jura', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border-top: 1px solid #000000; 
+    margin: 1vmin 0;
+    width: 60%;
+}
+
+.titleText {
+    font-size: 7vmin;
+    font-weight:normal;
+}
+
+ul#menu {
+    position:fixed;
+    z-index: 2; 
+    left: 33%;
+    font-size: 2vmin;
+    font-weight: 600;
+    padding: 0;
+    text-align: center;
+}
+
+    ul#menu li {
+        display: inline;
+        list-style: none;
+        padding: 0.2vmin;
+    }
+
+        ul#menu li a {
+            background: none;
+            color: #999;
+            text-decoration: none;
+        }
+
+        ul#menu li a:hover {
+            color: #333;
+            text-decoration: none;
+        }
+
+
+#page-wrap { 
+    position:absolute;
+    z-index: 2; 
+    top: 40vmin;
+}
+
+#pageTitle {
+   font-size: 7vmin;
+   color:white;
+   font-weight: bold;
+   text-shadow: 1px 1px 1px #333;
+
+}
+
+#pageLeading {
+    font-size: 4vmin;
+    color:white;
+}	
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+#bg img {
+  z-index:-1;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+/*
+----------------------------------
+          -- Profile --
+----------------------------------
+*/
+#profile {
+    position: absolute;
+    z-index: 4;
+    color: #ed9f12;
+    background-color: #eee6dd ;
+    left: 0;
+    right: 0;
+}
+
+    #profileTitle {
+       position:relative;
+       text-align:center;
+       padding-top:4vmin;
+       padding-bottom:-1vmin;
+       border-bottom: 3px solid #856A5E; 
+       color: #856A5E;
+       margin: 1vmin 0;
+       left: 30%;
+       width: 40%;
+    }
+
+
+    #profileLeft {
+    padding:5%;
+    float:left;
+    width:50%;
+    top:10%;
+    text-align:center;
+    }
+
+    #profileLeftHeader {
+        font-size:3vmin;
+        color:#856A5E;
+    }
+
+    #profileLeftBody {
+        padding-left:10vmin;
+        padding-right:10vmin;
+        text-align:start;
+    }
+
+    #profileRight {
+        padding:5%;
+        top:10%;
+        left:50%;
+        text-align:center;
+        margin-left:50%
+    }
+        #profileRightHeader {
+            font-size:3vmin;
+            color:#856A5E;
+
+        }
+
+.profileText {
+    color: #856A5E;
+}
+
+#WestLothianCollege {
+    color: #eee6dd ;
+}
+
+#QAApprenticeships {
+    color: #eee6dd ;
+}
+
+/*
+---------------------------------------------
+         -- Main Body (Experience)--
+---------------------------------------------
+*/
+
+#mainBody {
+    position: absolute;
+    z-index: 4;
+    color: #856A5E;
+    background-color: #F1B344;
+    left: 0;
+    right: 0;
+}
+
+#mainBodyTitle {
+    position: relative;
+    text-align: center;
+    padding-top: 4vmin;
+    padding-bottom: -1vmin;
+    color: #FFF0E0;
+    border-bottom: 3px solid #FFF0E0;
+    margin: 1vmin 0;
+    left: 30%;
+    width: 40%;
+}
+
+.mainBodyLeft {
+    padding: 5%;
+    padding-top: 15%;
+    float: left;
+    width: 50%;
+    top: 10%;
+    text-align: center;
+}
+
+.mainBodyRight {
+    padding-top: 2.5%;
+    float: right;
+    width: 50%;
+    top: 10%;
+}
+
+.mainBodyLeftHeader {
+    font-size: 3vmin;
+    font-weight: bold;
+}
+
+.mainBodyLeftHeaderMini {
+    font-size: 2vmin;
+    color: white;
+    font-weight: bold;
+}
+
+.lineBreak {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    border-bottom: 0.2vmin solid #eee6dd;
+    left: 25%;
+}
+
+.bodyBuilder {
+    padding: 2vmin;
+}
+
+/*
+-------------------------------
+         -- Education--
+-------------------------------
+*/
+
+#experience {
+    position: absolute;
+    z-index: 4;
+    color: #856A5E;
+    background-color: #856A5E;
+    left: 0;
+    right: 0;
+}
+
+#experienceTitle {
+    position: relative;
+    text-align: center;
+    padding-top: 4vmin;
+    padding-bottom: -1vmin;
+    color: #F1B344;
+    border-bottom: 3px solid #F1B344;
+    margin: 1vmin 0;
+    left: 30%;
+    width: 40%;
+}
+
+#WMTitle {
+    padding-top: 20%;
+}
+
+#WMTitle {
+    color:#F1B344;
+}
+
+#TechApprentice {
+    color:#F1B344;
+}
+
+#itApprenticeshipBody {
+    color:#FFF0E0;
+}
