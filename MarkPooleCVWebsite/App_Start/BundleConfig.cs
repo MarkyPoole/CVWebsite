@@ -26,11 +26,11 @@ namespace MarkPooleCVWebsite
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/bundles/fonts").Include(
-                        "~/Content/Fonts/glyphicons-halflings-regular.eot",
-                        "~/Content/Fonts/glyphicons-halflings-regular.svg",
-                        "~/Content/Fonts/glyphicons-halflings-regular.ttf",
-                        "~/Content/Fonts/glyphicons-halflings-regular.woff",
-                        "~/Content/Fonts/glyphicons-halflings-regular.woff2"));
+                        "~/Content/fonts/glyphicons-halflings-regular.eot",
+                        "~/Content/fonts/glyphicons-halflings-regular.svg",
+                        "~/Content/fonts/glyphicons-halflings-regular.ttf",
+                        "~/Content/fonts/glyphicons-halflings-regular.woff",
+                        "~/Content/fonts/glyphicons-halflings-regular.woff2"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",
