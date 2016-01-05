@@ -13,7 +13,6 @@
         
 
         @Scripts.Render("~/bundles/modernizr")
-        @Styles.Render("~/bundles/fonts")
     </head>
     <body>
          
@@ -59,7 +58,6 @@
         <script src="~/Scripts/mainPageScripts.js"></script>
         <script>
             $(document).ready(function () {
-                backToTopButton();
                 resizeProfile();
                 resizeMainBody();
                 resizeMainBodyWCLInfo();
@@ -67,6 +65,7 @@
                 resizeLineBreak();
                 resizeExperience();
                 smoothScroll();
+                backToTopButton();
             });
 </script>
     </body>
