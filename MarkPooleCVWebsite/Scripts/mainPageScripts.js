@@ -26,16 +26,19 @@ function resizeMainBodyWCLInfo() {
 };
 
 function sidebarWrapper() {
- 	var navBarWidth = $("#sidebar-wrapper").width();
-                $("#page-wrap").css({
-                    'left': navBarWidth + 'px'
-                })
 
-                $(window).resize(function () {
-                    $("#page-wrap").css({
-                        'left': navBarWidth + 'px'
-                    })
-                }).resize();
+    var navBarWidth = $("#sidebar-wrapper").width();
+    $("#page-wrap").css({
+        'left': navBarWidth + 'px'
+    });
+
+    $(window).resize(function () {
+        var navBarWidth = $("#sidebar-wrapper").width();
+        $("#page-wrap").css({
+            'left': navBarWidth + 'px'
+        });
+    }).resize();
+
 };
 
 function resizeLineBreak () {
@@ -54,6 +57,15 @@ function resizeExperience() {
                         'top': bodyHeight + 'px'
                     });
                 }).resize();
+};
+
+function resizeContact() {
+    $(window).resize(function () {
+        var bodyHeight = $(window).height() + $('#profile').height() + $('#mainBody').height() + $('#experience').height();
+        $('#contact').css({
+            'top': bodyHeight + 'px'
+        });
+    }).resize();
 };
 
 function smoothScroll() {
