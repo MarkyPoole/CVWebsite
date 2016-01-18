@@ -299,15 +299,26 @@ ul#menu {
 #contactTitle {
     position: relative;
     text-align: center;
-    padding-top: 4vmin;
-    padding-bottom: -1vmin;
+    padding-top: 2vmin;
+    padding-bottom: -4vmin;
     color: #F1B344;
     border-bottom: 3px solid #F1B344;
     margin: 1vmin 0;
     left: 30%;
     width: 40%;
+    font-size: 3vmin;
 }
 
 #emailAddress {
     text-align: center;
 }
+
+#linkedIn {
+    text-align: center;
+}
+
+#linkedInImage {
+    width: 30vmin;
+    height: 5vmin;
+    border: 0;
+} 
