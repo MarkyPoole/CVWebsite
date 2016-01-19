@@ -55,7 +55,8 @@
 .sidebar-nav li {
     text-indent: 2vmin;
     line-height: 4vmin;
-    font-size: 2vmin;
+    font-size: 3vmin;
+    padding-bottom: 1.5vmin;
 }
 
 .sidebar-nav li a {
@@ -77,9 +78,11 @@
 
 .sidebar-nav > .sidebar-brand {
     padding:3vmin;
+    padding-left:1vmin;
     height: 6vmin;
-    font-size: 3vmin;
+    font-size: 4vmin;
     line-height: 2vmin;
+    text-decoration:underline;
 }
 
 .sidebar-nav > .sidebar-brand a {
