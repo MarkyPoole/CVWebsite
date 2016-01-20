@@ -89,6 +89,7 @@ ul#menu {
           -- Profile --
 ----------------------------------
 */
+
 #profile {
     position: absolute;
     z-index: 4;
@@ -97,6 +98,7 @@ ul#menu {
     left: 0;
     right: 0;
 }
+
 
     #profileTitle {
        position:relative;
@@ -154,6 +156,42 @@ ul#menu {
 #QAApprenticeships {
     color: #eee6dd ;
 }
+
+@media only screen and (max-width: 500px) {
+    #profileTitle {
+        margin: 0;
+        left:20%;
+        width:60%;
+    }
+    
+    .titleText {
+        font-size: 30px;
+    }
+
+    #profileLeft {
+        padding-left:0%;
+        padding-right:0%;
+    }
+
+    #profileRight {
+        padding-left:0%;
+        padding-right:0%;
+    }
+
+    #profileLeftHeader {
+        font-size: 15px;
+    }
+
+    #profileRightHeader {
+        font-size: 15px;
+    }
+
+    .profileText {
+        font-size: 10px;
+    }
+
+}
+
 
 /*
 ---------------------------------------------
