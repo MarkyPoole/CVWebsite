@@ -84,6 +84,15 @@ ul#menu {
   min-height: 50%;
 }
 
+#info {
+    position: absolute;
+    z-index: 4;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    overflow:auto;
+}
+
 /*
 ----------------------------------
           -- Profile --
@@ -91,12 +100,14 @@ ul#menu {
 */
 
 #profile {
-    position: absolute;
+    position:relative;
+    overflow:auto;
     z-index: 4;
     color: #ed9f12;
     background-color: #eee6dd ;
     left: 0;
     right: 0;
+    height: auto;
 }
 
 
@@ -200,7 +211,8 @@ ul#menu {
 */
 
 #mainBody {
-    position: absolute;
+    position:relative;
+    overflow:auto;
     z-index: 4;
     color: #FFF0E0;
     background-color: #F1B344;
@@ -266,7 +278,8 @@ ul#menu {
 */
 
 #experience {
-    position: absolute;
+    position:relative;
+    overflow:auto;
     z-index: 4;
     color: #856A5E;
     background-color: #856A5E;
@@ -326,7 +339,8 @@ ul#menu {
 */
 
 #contact{
-    position: absolute;
+    position:relative;
+    overflow:auto;
     z-index: 4;
     color: #856A5E;
     background-color: #331a00;

@@ -7,6 +7,16 @@ function resizeProfile() {
                 }).resize();
 };
 
+function resizeInfo() {
+    $(window).resize(function() {
+        var bodyheight = $(window).height();
+
+        $("#info").css({
+            'top': bodyheight + 'px'
+        });
+    }).resize();
+}
+
 function resizeMainBody() {
 	$(window).resize(function () {
                     var bodyHeight = $(window).height() + $('#profile').height();
