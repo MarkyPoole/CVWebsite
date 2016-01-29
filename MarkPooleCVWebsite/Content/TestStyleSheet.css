@@ -93,6 +93,10 @@ ul#menu {
     overflow:auto;
 }
 
+.bodyText {
+    white-space: pre-line;
+}
+
 /*
 ----------------------------------
           -- Profile --
